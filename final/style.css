@@ -1,0 +1,196 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+}
+
+.head {
+    padding: 10px;
+    background-color: #be616e ;
+    color:white;
+    text-align: center;
+}
+
+span {
+    color: #df0707;
+    margin: 0px;
+}
+
+#text1,#text2 {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+   
+}
+
+.mytable {
+    width: 100%;
+    margin: 10px 0px;
+    border:1px solid grey;
+}
+
+.displaytable {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.displaytable th {
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.table{
+    overflow-y: scroll;
+    max-height: 300px;
+   
+}
+.displaytable tr{
+    
+    max-width: 80%;
+    background-color: #f5c2c7;
+}
+
+.displaytable td {
+    border: 1px solid #000;
+    margin: 0px;
+    font-size: 20px;
+    padding: 10PX;
+    width: 20%;
+    border-radius: 3px;
+}
+
+th {
+    padding: 15px;
+    width: 20%;
+    background-color: rgb(101, 181, 228);
+    font-size: 20px;
+}
+
+.mytable td {
+    font-size: 20px;
+    padding: 10PX;
+    width: auto;
+    border:1px solid grey;
+}
+
+input {
+    margin: 18px;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(202, 190, 190);
+}
+
+select {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 15%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px 10px;
+}
+
+.displaytable tr {
+    width: 100%;
+
+}
+
+#submit {
+    background-color: #51aac5;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#submit:active {
+    background-color: #176581;
+ 
+}
+
+#reset {
+    background-color: #d36271;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#reset:active {
+    background-color: #ad3f4e; 
+}
+
+
+.edit {
+    background-color: #51aac5;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0px;
+}
+
+.delete {
+    background-color: #d36271;
+    border-radius: 10px;
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.close{
+    background-color: #d36271;
+    border-radius: 5px;
+    margin: 0px ;
+    padding: 0px;
+   font-size: 20px;
+   float:right;
+   
+}
+#Edit {
+    width: 25%;
+    padding: 13px;
+    background-color: #e7adb5;
+    border: 3px solid rgb(44, 64, 80);
+    align-items: center;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    top:10%;
+    left: 36%;
+    box-shadow: 4px 10px 5px 1px #524e4f;
+}
+
+#edit input,
+select {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+label {
+    font-size: 20px;
+    margin: 0px;
+}
+
+#done {
+    background-color: #51aac5;
+    border-radius: 10px;
+    width: 100%;
+    margin: 15px 0px 0px 0px ;
+
+}
+
+#done {
+    background-color: #176581;
+    cursor: pointer;
+}
